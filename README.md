@@ -1,6 +1,6 @@
 # blockchain_hw
 
-<!-- Information:
+Information:
 
 name: mychain
 node 1:0xf98ac6ed956847eB069d9080a352B423E4866131
@@ -12,7 +12,7 @@ chain:6565
 enode://d74a79b81d678757069c6d0555a2d75cf1d1509ba4ebea8f0e455af996c7e6e964a8b4f0887b512fbdd15a634f7f6bf32ece70102b9438a46af24fa412a5640e@127.0.0.1:30303
 
 
-./geth --datadir node2 --unlock "cc068a960ab7660E1F7596343e1834985EC1cfb3” --mine --port 30304 —bootnodes "enode://d74a79b81d678757069c6d0555a2d75cf1d1509ba4ebea8f0e455af996c7e6e964a8b4f0887b512fbdd15a634f7f6bf32ece70102b9438a46af24fa412a5640e@127.0.0.1:30303" --ipcdisable --allow-insecure-unlock -->
+./geth --datadir node2 --unlock "cc068a960ab7660E1F7596343e1834985EC1cfb3” --mine --port 30304 —bootnodes "enode://d74a79b81d678757069c6d0555a2d75cf1d1509ba4ebea8f0e455af996c7e6e964a8b4f0887b512fbdd15a634f7f6bf32ece70102b9438a46af24fa412a5640e@127.0.0.1:30303" --ipcdisable --allow-insecure-unlock
 
 
 1) Step 1 to send a transaction is to activate both node1 and node2
